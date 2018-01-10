@@ -1,0 +1,29 @@
+{
+  "name": "btcnano-ecies",
+  "main": "./btcnano-ecies.min.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bitcoinnano/btcnano-ecies",
+  "authors": [
+    "Jack chen"
+  ],
+  "description": "ECIES implemented for Btcnano.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "btcnano",
+    "bitcoin",
+    "bitcore",
+    "btn",
+    "satoshi",
+    "ecies"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

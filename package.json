@@ -1,0 +1,46 @@
+{
+  "name": "btcnano-ecies",
+  "version": "0.1.0",
+  "description": "ECIES implemented for Btcnano.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitcoinnano/btcnano-ecies.git"
+  },
+  "keywords": [
+    "btcnano",
+    "bitcoin",
+    "bitcore",
+    "ecies",
+    "crypto",
+    "cryptography",
+    "encryption"
+  ],
+  "author": "Jack chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitcoinnano/btcnano-ecies/issues"
+  },
+  "homepage": "https://github.com/bitcoinnano/btcnano-ecies",
+  "devDependencies": {
+    "assert": "^1.1.2",
+    "btcnano-build": "git://github.com/bitcoinnano/btcnano-build.git",
+    "brfs": "^1.2.0",
+    "browserify": "^8.1.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10"
+  },
+  "dependencies": {
+    "aes": "^0.1.0",
+    "btcnano-lib": "^0.1.0"
+  }
+}
